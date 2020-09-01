@@ -1,5 +1,3 @@
-import redirectSSL from 'redirect-ssl'
-
 const appName = 'Give You Glory Website is Under Construction'
 
 export default {
@@ -114,10 +112,4 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
-
-  serverMiddleware: [
-    redirectSSL.create({
-      enabled: process.env.NODE_ENV === 'production',
-    }),
-  ],
 }
