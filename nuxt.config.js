@@ -30,7 +30,37 @@ export default {
         content: process.env.npm_package_description || '',
       },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'manifest', href: '/site.webmanifest' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        size: '16x16',
+        href: '/favicon-16x16.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        size: '32x32',
+        href: '/favicon-32x32.png',
+      },
+      {
+        rel: 'apple-touch-icon',
+        size: '180x180',
+        href: '/apple-touch-icon.png',
+      },
+      {
+        rel: 'apple-chrome-icon',
+        size: '192x192',
+        href: '/android-chrome-192x192.png',
+      },
+      {
+        rel: 'apple-chrome-icon',
+        size: '512x512',
+        href: '/android-chrome-512x512.png',
+      },
+    ],
   },
   /*
    ** Global CSS
