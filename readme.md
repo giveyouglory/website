@@ -1,1 +1,3 @@
-Visit [Our Wesbite](https://giveyouglory.com)
+# giveyouglory-website
+
+check out [Our Website](https://giveyouglory.com).
